@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import {
-  Zap, Globe, ShieldCheck, RotateCcw, Headphones,
+  Globe, ShieldCheck, RotateCcw, Headphones,
   Share2, Heart, MessageCircle, Play,
   MapPin, Phone, Mail, ArrowRight
 } from 'lucide-react'

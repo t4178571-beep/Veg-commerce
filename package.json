@@ -1,7 +1,7 @@
 {
   "name": "istiyaak-e-commerce",
   "version": "1.0.0",
-  "description": "ElectronicBajar - Electronics & Appliances E-Commerce",
+  "description": "Aamir Vegetables - Fresh Organic Vegetables E-Commerce",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

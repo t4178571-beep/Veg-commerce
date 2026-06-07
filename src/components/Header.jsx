@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { Link, useNavigate, useLocation } from 'react-router-dom'
 import {
-  Zap, Search, ShoppingCart, X, Menu, ChevronDown,
+  Search, ShoppingCart, X, Menu, ChevronDown,
   ChevronRight, LogOut, LayoutDashboard, UserCircle, Heart
 } from 'lucide-react'
 import { useCart } from '../context/AppContext'

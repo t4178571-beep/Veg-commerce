@@ -7,10 +7,10 @@ const CompareContext = createContext(null)
 
 export function CartProvider({ children }) {
   const [items, setItems] = useState(() => {
-    try { return JSON.parse(localStorage.getItem('em_cart') || '[]') } catch { return [] }
+    try { return JSON.parse(localStorage.getItem('veg_cart') || '[]') } catch { return [] }
   })
 
-  useEffect(() => { localStorage.setItem('em_cart', JSON.stringify(items)) }, [items])
+  useEffect(() => { localStorage.setItem('veg_cart', JSON.stringify(items)) }, [items])
 
   const addToCart = (product, qty = 1, size = null) => {
     setItems(prev => {
@@ -41,10 +41,10 @@ export function CartProvider({ children }) {
 
 export function WishlistProvider({ children }) {
   const [items, setItems] = useState(() => {
-    try { return JSON.parse(localStorage.getItem('em_wishlist') || '[]') } catch { return [] }
+    try { return JSON.parse(localStorage.getItem('veg_wishlist') || '[]') } catch { return [] }
   })
 
-  useEffect(() => { localStorage.setItem('em_wishlist', JSON.stringify(items)) }, [items])
+  useEffect(() => { localStorage.setItem('veg_wishlist', JSON.stringify(items)) }, [items])
 
   const addToWishlist = (product) => {
     setItems(prev => prev.find(i => i.id === product.id) ? prev : [...prev, product])

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
-  Zap, Wind, Droplets, Truck, Clock, ShieldCheck, Cable, X,
+  Wind, Droplets, Truck, Clock, ShieldCheck, X,
   Flame, Star, ArrowRight, Package, Tag, RotateCcw
 } from 'lucide-react'
 import { products, brands, flashDeals } from '../data/products'
@@ -57,7 +57,7 @@ function AdPopup({ onClose }) {
             background: 'rgba(255,255,255,0.12)', border: '2px dashed rgba(255,255,255,0.4)',
             borderRadius: '0px', padding: '0.625rem 1rem', textAlign: 'center',
           }}>
-            <span style={{ fontWeight: 900, color: '#fff', fontSize: '1.15rem', letterSpacing: '3px' }}>EBAJAR20</span>
+            <span style={{ fontWeight: 900, color: '#fff', fontSize: '1.15rem', letterSpacing: '3px' }}>AAMIR20</span>
           </div>
           <div style={{
             width: '64px', height: '64px', background: 'rgba(255,255,255,0.12)',
@@ -163,10 +163,10 @@ export default function Home() {
   const [showAd, setShowAd] = useState(false)
 
   useEffect(() => {
-    if (!sessionStorage.getItem('em_ad_shown')) {
+    if (!sessionStorage.getItem('veg_ad_shown')) {
       const t = setTimeout(() => {
         setShowAd(true)
-        sessionStorage.setItem('em_ad_shown', '1')
+        sessionStorage.setItem('veg_ad_shown', '1')
       }, 5000)
       return () => clearTimeout(t)
     }
