@@ -1,0 +1,193 @@
+ek acchasa prompt generate karke do
+
+muje electronics and appliencess ki ek e-commerce website create karni hain wordpress se mobile and desktop dono ke liye
+
+lekin usse pehle client ko muje ek demo dena hain taaki wo approve kar sake
+
+and wo demo main react and tailwind se create karna chahta hu or javascript
+
+main ye demo claude ko acchasa detaild prompt dekar create karna chahta hu toh tum muje ek accha prompt genrate karke do
+
+1.Header:
+
+- left side main logo
+- center main Home, shop(dropdown menu), Compare, track order,my wishlist, about us, contact us
+- right side 1)Login 2)Sign up(or agar user login hoga toh uske name ka profile icon with dropdown menu with links to dashboard,profile,logout) 3)search icon 4)cart icon with item count(by default 0)
+
+
+2. Category:
+
+header ke below main ek halki line hogi
+and fir uske bilkul niche rounded images honge category ke usme sab categorys hogi jaise karni 
+
+categorys
+
+- wires and cables
+- Fans
+- water pumps
+- power genration transformation
+- industrial domastic coolers
+- weigting scals
+- electrical power testing
+- solar ights
+- motors
+
+ye sab categories ek row lins main aayegi image and uske name text main jisko horizontal scroll kar sakte hain
+
+3. Main section:
+
+categori row line ke below main ye section aayega
+
+isme ek badi image or uske right side main 4 choti image
+
+Product section:
+
+iss section main horizontal scroll hone wala products ki row hogi
+
+iske ander harek products show hogi
+
+Image, title, price show hoga harek product ka
+
+(desktop and mobile dono main)
+
+products image ka size bohot bada nahi hona chahiye
+
+products section main top right cornor main see all products hoga
+
+4. more details section:
+
+iss section main ek row main likha hoga
+
+(icon)fast free shipping  | icon next day delivary | (Icon) Secure Payment
+on order over rs.50       | free-spend over rs 99  | 100% Safe checkout
+
+and iske bilkul niche hoga
+
+3 categirs ke liye image hoga jisme show more ka option hoga 
+- wires and cables
+- Fans
+- water pumps
+
+5.Flash deals:
+
+iss section main ek horizontal row scrolling main kuch products aayegi 
+
+harek products ka image, title, number, add to cart ka option hoga
+
+6. Brands:
+
+iss section main brands ke logos horizontal scrolling 2 row main aayegi
+
+7. Footer:
+
+footer main niche 2 section main info show hoga
+
+  A. ek row main details likhi hogi
+
+     world wide delivery | 100% secure payment | easy returns     | 24/7 customer support
+     200 countries and   | pay with popular and| Merchandies must | we'll respond to you to 24 hours
+     regions worldwide      secure payment     | be in 60 days    |
+
+  B. Iss section main            
+    chota description about us 
+    quick links
+    contact info
+    social links
+
+    depart ment pages link : who are we, our mission, type with brands
+    let's keep in touch, 
+
+    user email send kar sakte hain
+
+
+Advertise popup:
+
+    User ko bich bich main popup aayega jo 2 section main hoga
+
+    Left: ye ligh blue color ka hoga isme cupon code and thodi details likhi hogi and product ki image hogi
+
+    Right: ye white color ka hoga isme ek jisme 3 product show hogi colomn vise jisme each products ki detils hogi 
+
+
+
+
+2 page: Shop(dropdown)
+
+    1. Category section hoga
+
+    2. categoris ke niche left side main Filter sction hoga
+     - user ratings, price, brands wise, 
+
+    3. Product section hoga jisme sabhi products grid main show hoge and mobile side main bhi acchese show honge
+
+
+    Kisi bhi product per click karne per uss product ki detail page open hoga jisme 
+
+    left side main bada sa product image or uske left side main small small 3 images
+
+    right side main product ka name, price, discount, ratings, features, 
+    add to cart button
+    wishlist button
+    available stock
+    300 units sold in 12 hours text
+    Buy now bada button
+    kisi product main agar variation ho toh uss varition and smal big or wo sab options bhi honge or products ke hisaab se
+
+    product detail section ke below main 3 options honge
+
+    1. description
+    2. additional details
+    3. Reviews
+
+
+    add to cart button per click karne per right side se ek modal open hoga jisme show hoga ki kon kon si product user ne add ki hain total amount and
+    view cart button hoga jisse wo cart page main jaa sakta hain
+    checkout button hoga jiss e click karne per checkout page open hoga
+    
+
+3 page: Cart page
+
+    Iss page main add ki hui sabhi products and unki details show ho jaayegi
+
+    cart total show hoga right side main jisme sab amount show hogi and paypal ka option hoga and likha hoga 
+
+    proced to check out
+
+    gst bhi count hoga
+
+checkout page
+
+ proced to checkout per click karne per ye page open hoga isme 3 section honge
+
+    1. customer details
+    2. shipping details
+    3. payment option details
+    and uss form ke last main place order or return to cart ka option hoga
+    4. right side per order summury hogi
+
+    and place order karne ke baad user ko thank you note ke saathorder ki sabhi details show hogi
+    order number, product details, date, total, payment method sab kuch
+
+    
+
+    user easily order track kar sakta hain
+    order id, billing email add karke
+
+
+    puri Website per left bottom  cornor main ek hot product ka popup as a advertisement show hoga
+
+    jo badlta rahega
+
+
+    My whishlisht
+
+    iss page main user  products ko dekh sakta hain ek table main
+    jisme Products, price, availability, add to cart button, delete option
+
+    compare page main products ko compare kiya jaayega usnki specification or wo sab kuch 
+
+    Or sabse badi baat ki ye website desktop and mobile dono main acchese show honi chahiye
+    
+    iss website ko mobile freindly and desktop friendy bhi banan hain
+    and font family bhi acchese lo
+    
